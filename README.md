@@ -2,7 +2,7 @@
 A generic soil moisture driver for the ones selled in the web
 
 ## How To Use ?
-
+copy ```moisture_driver``` folder to your project folder
 in main projects cmake file add these:
 ```cmake
 add_subdirectory(moisture_driver) # add the soil moisture library
