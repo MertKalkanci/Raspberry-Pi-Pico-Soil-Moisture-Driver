@@ -7,6 +7,5 @@ target_sources(moisture
 target_link_libraries(moisture # link the libraries to the executable
 	INTERFACE
     	hardware_adc
-	hardware_gpio
     	pico_stdlib
     )
