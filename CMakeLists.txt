@@ -5,15 +5,13 @@ include($ENV{PICO_SDK_PATH}/external/pico_sdk_import.cmake) # import the pico sd
 
 project(moisture-sample C CXX ASM)
 
-#DONT CHNAGE THINGS BELOW THIS LINE
-#ALTTAKİ SATIRLARI DEĞİŞTİRMEYİN
 
 set(CMAKE_C_STANDARD 11) # set the C standard
 set(CMAKE_CXX_STANDARD 17) # set the C++ standard
 
 pico_sdk_init() # initialize the sdk
 
-add_subdirectory(moisture_driver) # add the nrf24l01 communication library
+add_subdirectory(moisture_driver) # add the soil moisture library
 
 add_executable(${PROJECT_NAME} # create the executable
     sample.c
