@@ -2,6 +2,8 @@
 A generic soil moisture driver for the ones selled in the web
 
 ## How To Use ?
+Connect your moisture unit to GND 3v3 and any ADC (analog to digital converter) pin
+![PINS](https://github.com/MertKalkanci/Raspberry-Pi-Pico-Soil-Moisture-Driver/blob/main/pins.png)
 copy ```moisture_driver``` folder to your project folder
 in main projects cmake file add these:
 ```cmake
