@@ -1,5 +1,5 @@
 # Raspberry-Pi-Pico-Soil-Moisture-Driver
-A generic soil moisture driver for the ones selled in the web
+A generic soil moisture driver for the ones that can be bought from web
 
 ## How To Use ?
 Connect your moisture unit to GND 3v3 and any ADC (analog to digital converter) pin
